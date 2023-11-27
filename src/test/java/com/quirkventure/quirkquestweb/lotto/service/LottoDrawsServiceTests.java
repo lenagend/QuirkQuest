@@ -1,5 +1,6 @@
 package com.quirkventure.quirkquestweb.lotto.service;
 
+import com.quirkventure.quirkquestweb.lotto.dto.LottoDrawsDTO;
 import com.quirkventure.quirkquestweb.lotto.entity.LottoDraws;
 import com.quirkventure.quirkquestweb.lotto.repository.LottoDrawsRepository;
 import org.junit.jupiter.api.Test;
@@ -25,7 +26,7 @@ public class LottoDrawsServiceTests {
         Page<LottoDraws> mockPage = Page.empty();
         when(lottoDrawsRepository.findAll(Pageable.unpaged())).thenReturn(mockPage);
 
-        Page<LottoDraws> result = lottoDrawsService.findAllLottoDraws(Pageable.unpaged());
+        Page<LottoDrawsDTO> result = lottoDrawsService.findAllLottoDraws(Pageable.unpaged());
 
         assertNotNull(result);
         // 추가적인 검증 로직

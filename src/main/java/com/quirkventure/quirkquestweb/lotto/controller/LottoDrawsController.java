@@ -1,5 +1,6 @@
 package com.quirkventure.quirkquestweb.lotto.controller;
 
+import com.quirkventure.quirkquestweb.lotto.dto.LottoDrawsDTO;
 import com.quirkventure.quirkquestweb.lotto.entity.LottoDraws;
 import com.quirkventure.quirkquestweb.lotto.service.LottoDrawsService;
 import org.springframework.data.domain.Page;
@@ -21,7 +22,7 @@ public class LottoDrawsController {
     }
 
     @GetMapping
-    public Page<LottoDraws> getAllLottoDraws(Pageable pageable) {
+    public Page<LottoDrawsDTO> getAllLottoDraws(Pageable pageable) {
         return lottoDrawsService.findAllLottoDraws(pageable);
     }
 }
