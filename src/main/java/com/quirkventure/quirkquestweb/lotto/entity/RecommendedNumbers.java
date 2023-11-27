@@ -26,6 +26,42 @@ public class RecommendedNumbers {
     public RecommendedNumbers() {
     }
 
+    public Integer getId() {
+        return id;
+    }
+
+    public LocalDate getCreatedAt() {
+        return createdAt;
+    }
+
+    public Integer getNumber1() {
+        return number1;
+    }
+
+    public Integer getNumber2() {
+        return number2;
+    }
+
+    public Integer getNumber3() {
+        return number3;
+    }
+
+    public Integer getNumber4() {
+        return number4;
+    }
+
+    public Integer getNumber5() {
+        return number5;
+    }
+
+    public Integer getNumber6() {
+        return number6;
+    }
+
+    public String getReason() {
+        return reason;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }

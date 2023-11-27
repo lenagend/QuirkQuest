@@ -13,20 +13,20 @@ import org.springframework.data.domain.Pageable;
 import static org.mockito.Mockito.when;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 @ExtendWith(MockitoExtension.class)
-public class LottoDrawsServiceTests {
+public class LottoServiceTests {
 
     @Mock
     private LottoDrawsRepository lottoDrawsRepository;
 
     @InjectMocks
-    private LottoDrawsService lottoDrawsService;
+    private LottoService lottoService;
 
     @Test
     public void testFindAllLottoDraws() {
         Page<LottoDraws> mockPage = Page.empty();
         when(lottoDrawsRepository.findAll(Pageable.unpaged())).thenReturn(mockPage);
 
-        Page<LottoDrawsDTO> result = lottoDrawsService.findAllLottoDraws(Pageable.unpaged());
+        Page<LottoDrawsDTO> result = lottoService.findAllLottoDraws(Pageable.unpaged());
 
         assertNotNull(result);
         // 추가적인 검증 로직
