@@ -27,6 +27,10 @@ public class LottoService {
                 .map(this::convertToDTO);
     }
 
+    public Page<RecommendedNumbersDTO> findAllRecommendedNumbers(Pageable pageable){
+        return recommendedNumbersRepository.findAll(pageable)
+                .map(this::convertToDTO);
+    }
 
 
     public LottoDrawsDTO convertToDTO(LottoDraws lottoDraws) {
