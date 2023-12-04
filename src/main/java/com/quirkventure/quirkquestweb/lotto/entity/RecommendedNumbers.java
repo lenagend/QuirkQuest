@@ -23,6 +23,9 @@ public class RecommendedNumbers {
     @Column(columnDefinition = "TEXT")
     private String reason;
 
+    @Column(columnDefinition = "TEXT")
+    private String frequencyInfo;
+
     public RecommendedNumbers() {
     }
 
@@ -64,6 +67,14 @@ public class RecommendedNumbers {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public String getFrequencyInfo() {
+        return frequencyInfo;
+    }
+
+    public void setFrequencyInfo(String frequencyInfo) {
+        this.frequencyInfo = frequencyInfo;
     }
 
     public void setCreatedAt(LocalDate createdAt) {

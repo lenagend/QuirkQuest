@@ -11,5 +11,6 @@ public record RecommendedNumbersDTO(
         Integer number4,
         Integer number5,
         Integer number6,
-        String reason
+        String reason,
+        String frequencyInfo
 ) {}

@@ -10,8 +10,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class LottoService {
     private final LottoDrawsRepository lottoDrawsRepository;
@@ -60,7 +58,8 @@ public class LottoService {
                 recommendedNumbers.getNumber4(),
                 recommendedNumbers.getNumber5(),
                 recommendedNumbers.getNumber6(),
-                recommendedNumbers.getReason()
+                recommendedNumbers.getReason(),
+                recommendedNumbers.getFrequencyInfo()
         );
     }
 

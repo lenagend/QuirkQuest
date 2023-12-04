@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://${DB_HOST:127.0.0.1}:${DB_PORT:3306}/${DB_NAME:lotto_test}
+    username: ${DB_USER:km}
+    password: ${DB_PASSWORD:Rjawhs11!!}
+    driver-class-name: org.mariadb.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+cors:
+  allowedOrigins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000}
+
