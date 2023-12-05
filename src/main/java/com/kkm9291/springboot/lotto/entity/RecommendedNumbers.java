@@ -1,4 +1,4 @@
-package com.quirkventure.quirkquestweb.lotto.entity;
+package com.kkm9291.springboot.lotto.entity;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;

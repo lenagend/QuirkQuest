@@ -1,4 +1,4 @@
-package com.quirkventure.quirkquestweb.config;
+package com.kkm9291.springboot.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

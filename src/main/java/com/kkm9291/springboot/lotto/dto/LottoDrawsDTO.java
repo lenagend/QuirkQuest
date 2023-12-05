@@ -1,4 +1,4 @@
-package com.quirkventure.quirkquestweb.lotto.dto;
+package com.kkm9291.springboot.lotto.dto;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

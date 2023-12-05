@@ -1,6 +1,6 @@
-package com.quirkventure.quirkquestweb.lotto.repository;
+package com.kkm9291.springboot.lotto.repository;
 
-import com.quirkventure.quirkquestweb.lotto.entity.LottoDraws;
+import com.kkm9291.springboot.lotto.entity.LottoDraws;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

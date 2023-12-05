@@ -1,8 +1,8 @@
-package com.quirkventure.quirkquestweb.lotto.controller;
+package com.kkm9291.springboot.lotto.controller;
 
-import com.quirkventure.quirkquestweb.lotto.dto.LottoDrawsDTO;
-import com.quirkventure.quirkquestweb.lotto.dto.RecommendedNumbersDTO;
-import com.quirkventure.quirkquestweb.lotto.service.LottoService;
+import com.kkm9291.springboot.lotto.dto.LottoDrawsDTO;
+import com.kkm9291.springboot.lotto.dto.RecommendedNumbersDTO;
+import com.kkm9291.springboot.lotto.service.LottoService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;

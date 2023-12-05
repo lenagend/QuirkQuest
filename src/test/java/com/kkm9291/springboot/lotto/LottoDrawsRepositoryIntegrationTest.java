@@ -1,6 +1,6 @@
-package com.quirkventure.quirkquestweb.lotto;
+package com.kkm9291.springboot.lotto;
 
-import com.quirkventure.quirkquestweb.lotto.repository.LottoDrawsRepository;
+import com.kkm9291.springboot.lotto.repository.LottoDrawsRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

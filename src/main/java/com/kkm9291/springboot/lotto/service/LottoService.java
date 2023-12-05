@@ -1,11 +1,11 @@
-package com.quirkventure.quirkquestweb.lotto.service;
+package com.kkm9291.springboot.lotto.service;
 
-import com.quirkventure.quirkquestweb.lotto.dto.LottoDrawsDTO;
-import com.quirkventure.quirkquestweb.lotto.dto.RecommendedNumbersDTO;
-import com.quirkventure.quirkquestweb.lotto.entity.LottoDraws;
-import com.quirkventure.quirkquestweb.lotto.entity.RecommendedNumbers;
-import com.quirkventure.quirkquestweb.lotto.repository.LottoDrawsRepository;
-import com.quirkventure.quirkquestweb.lotto.repository.RecommendedNumbersRepository;
+import com.kkm9291.springboot.lotto.dto.LottoDrawsDTO;
+import com.kkm9291.springboot.lotto.entity.LottoDraws;
+import com.kkm9291.springboot.lotto.entity.RecommendedNumbers;
+import com.kkm9291.springboot.lotto.repository.LottoDrawsRepository;
+import com.kkm9291.springboot.lotto.repository.RecommendedNumbersRepository;
+import com.kkm9291.springboot.lotto.dto.RecommendedNumbersDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
